@@ -43,6 +43,7 @@ h1, h2, h3 {
     margin: 10px;
     text-align: center;
     text-decoration: underline;   
+    padding: 10px;
 }
     .title {
     background-color: #8c2b57;
