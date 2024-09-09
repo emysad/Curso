@@ -1,0 +1,73 @@
+@charset "UTF-8";
+
+main {
+    width: 100px;
+    height: 100px;
+    background-color: #1eff00;
+    text-align: center;
+
+}
+div {
+    display: inline-block;
+    background-color: aqua;
+    border: 1px solid black;
+    text-align: center;
+    height: 200px;
+    width: 200px;
+}
+div:hover {
+    background-color: yellow;
+    color: #1eff00;
+}
+div:hover > p {
+    display: block;
+    color: white;
+    background-color: blueviolet;
+}
+div > p {
+    display: none;
+}
+title:hover {
+    display: inline-block;
+    background-color: blue;
+    color: white;
+}
+        div:hover {
+            background-color: yellow;
+            color: #1eff00;
+        }
+        div:hover > p {
+            display: block;
+            color: white;
+            background-color: blueviolet;
+        }
+        div > p {
+            display: none;
+        }
+        title:hover {
+            display: inline-block;
+            background-color: blue;
+            color: white;
+        }
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+a {
+    color: rgb(255, 0, 212);
+    text-decoration: none;
+}
+a:visited {
+    color: red;
+}
+a:hover {
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+    background-color: rgba(137, 43, 226, 0.582);
+}
+a:active {
+    color: aqua;
+}
+a::after {
+    color: antiquewhite;
+}
+    

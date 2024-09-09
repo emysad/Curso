@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pseudoclass</title>
+    <style>
+        div {
+            display: inline-block;
+            background-color: aqua;
+            border: 1px solid black;
+            text-align: center;
+            height: 200px;
+            width: 200px;
+        }
+        div:hover {
+            background-color: yellow;
+            color: #1eff00;
+        }
+        div:hover > p {
+            display: block;
+            color: white;
+            background-color: blueviolet;
+        }
+        div > p {
+            display: none;
+        }
+        title:hover {
+            display: inline-block;
+            background-color: blue;
+            color: white;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>Exemplo d hover</h1>
+    <p>Passe o mouse sobre o texto abaixo</p>
+    <div id="d1">
+        <a href="div.html">passe o mouse aqui</a>
+    <p>escondido</p></div>
+    <div id="d2">02</div>
+    <div id="d3">03</div>
+    <h2> Teste </h2>
+    <div>passe o mouse aqui</div>
+</body>
+</html>

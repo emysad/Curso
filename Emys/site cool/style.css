@@ -1,0 +1,75 @@
+@charset "UTF-8";
+
+
+body {
+    background-color: rgba(0, 0, 0, 0.671);
+    font-family: "Pacifico", cursive;
+}
+main {
+    background-color: rgb(255, 241, 223);
+    height: 900px;
+    width: 600px;
+    margin: auto;
+    text-align: justify;
+    padding: 50px;
+    box-shadow: left 20px 10px 1px black;
+    border-radius: 10px;
+    border: 60px;
+}
+h1, h2, h3 {
+    background-color: black;
+    width: 600px;
+    color: white;
+    font-family: "Jersey 10", sans-serif;
+    text-align: center;
+    font-size: 2em;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    
+    text-decoration: underline ;
+}
+div:hover {
+    background-color: yellow;
+    color: black;  
+    
+}
+
+div {
+    display: inline-flex;
+    background-color: blueviolet;
+    color: white;
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+    text-align: center;
+    margin: 48px;
+    
+    
+}
+div > p {
+    display: none;
+}
+div:hover > .hide {
+    display: block;
+}
+p {
+    color: rgb(133, 4, 94);
+    font-size: 1.5em;
+}
+.hide {
+    font-size: 10px;
+}
+
+.especial {
+    font-family: "Jersey 10", sans-serif;
+    color: rgb(3, 73, 134);
+}
+.dick {
+    background-color: aqua;
+}
+
