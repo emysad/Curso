@@ -3,9 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Estudos de Iframe</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        iframe { 
+            width: 95vw;
+            height: 500px;
+            border: 2px solid black;
+            
+        }
+    </style>
 </head>
 <body>
+    <h1>Testando o uso de iframe</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam!</p>
+
+    <ul>
+        <li><a href="iframe02.html" target="quadro?">link</a></li>
+        <li><a href="https://emysad.github.io/Curso/" target="quadro?">link</a> Site emy</li>
+        <li></li>
+    </ul>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste tenetur unde ipsum, sapiente modi voluptatibus natus 
+    </p>
+
+    <iframe name="quadro?" frameborder="1" srcdoc="<h1> Escolha uma das opções acima </h1><p>sjdhfjdvf</p>"> </iframe>
     
 </body>
 </html>
