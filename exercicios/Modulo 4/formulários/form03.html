@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulário</title>
+    <style>
+        section {
+            display: inline-block;
+            padding: 50px;
+            margin: 50px;
+            background-color: aquamarine;
+            border: 2px solid black;
+            
+        }
+    </style>
+
+</head>
+<body>
+    <h1>Teste formulario</h1>
+    <section>
+        <form action="cadastro.php" method="get">
+            <p><label for="nome">nome</label>
+            <input type="text" name="nome" id="nome" required maxlength="20" minlength="3" placeholder="Digite seu nome" autocomplete="name"></p>
+            <p>
+                <label for="media"> Média </label>
+                <input type="number" name="media" id="media" max="10" placeholder="0 a 10" step="0.1">
+            </p>
+            <p>
+                <input type="submit" value="enviar">
+                <input type="reset" value="Limpar">
+            </p>
+        </form>
+    </section>
+    <section>
+        <form action="cadastro.php" method="get"></form>
+            <p><label for="cor">cor</label>
+            <input type="text" name="cor" id="cor" required maxlength="20" minlength="3" placeholder="Digite seu cor" autocomplete="name"></p>
+            <p>
+                <label for="idade"> Média </label>
+                <input type="number" name="idade" id="idade" max="10" placeholder="0 a 10" step="0.1">
+            </p>
+            <p>
+                <input type="submit" value="enviar">
+                <input type="reset" value="Limpar">
+            </p>
+            <p>
+                <label for="data"> Data </label>
+                <input type="date" name="data" id="data">
+            </p>
+        </form>
+    </section>
+
+    
+</body>
+</html>
